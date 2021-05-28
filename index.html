@@ -1,15 +1,17 @@
 <html>
+   
 <head>
-<style>
-.img-holder {position: relative;}
-.img-holder .one   { position: absolute; top: 28%; left: 11%; }
-.img-holder .two   { position: absolute; top: 23%; left: 47%; }
-.img-holder .three { position: absolute; top: 25%; left: 87%; }
-.img-holder .four  { position: absolute; top: 39%; left: 74%; }
-.img-holder .five  { position: absolute; top: 41%; left: 49%; }
-.img-holder .six   { position: absolute; top: 39%; left: 25%; }
-</style>
+   <style>
+   .img-holder {position: relative;}
+   .img-holder .one   { position: absolute; top: 28%; left: 11%; }
+   .img-holder .two   { position: absolute; top: 23%; left: 47%; }
+   .img-holder .three { position: absolute; top: 25%; left: 87%; }
+   .img-holder .four  { position: absolute; top: 39%; left: 74%; }
+   .img-holder .five  { position: absolute; top: 41%; left: 49%; }
+   .img-holder .six   { position: absolute; top: 39%; left: 25%; }
+   </style>
 </head>
+   
 <body style="background-color:black;">
 
 <audio id="sound1" src="Oracle5.mp3" preload="auto"></audio>     
@@ -19,20 +21,15 @@
 <audio id="sound5" src="Oracle1.mp3" preload="auto"></audio>     
 <audio id="sound6" src="Oracle6.mp3" preload="auto"></audio>     
 
-
-
-
 <div class="img-holder">
    <img src="atheon.jpg" width="100%"/>
    <button class="one"   onclick="document.getElementById('sound1').play();">1 (G)</button>
-   <button class="two"   onclick="document.getElementById('sound2').play();">2 (F#)</button>
+   <button class="two"   onclick="document.getElementById('sound2').play();">2 (F&pound;)</button>
    <button class="three" onclick="document.getElementById('sound3').play();">3 (E)</button>
    <button class="four"  onclick="document.getElementById('sound4').play();">4 (D)</button>
    <button class="five"  onclick="document.getElementById('sound5').play();">5 (C)</button>
    <button class="six"   onclick="document.getElementById('sound6').play();">6 (A)</button>
 </div>
-
-
 
 </body>
 </html>
